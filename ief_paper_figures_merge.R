@@ -1,13 +1,15 @@
+# This script produces the figures for "State or nation, sector or system? How granularity shapes U.S. energy modeling results"
+# Most of the packages are available at CRAN but rgcam should be installed using devtools
+## install_github("JGCRI", "rgcam")
 
-# library(rgcam)
-# library(dplyr)
-# library(tidyr)
-# library(readr)
-# library(ggplot2)
-# library(patchwork)
-# library(RColorBrewer)
-# library(gcamdata)
-rm(list=ls())
+library(rgcam)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(ggplot2)
+library(patchwork)
+library(RColorBrewer)
+
 # set colors ----
 light_blue_grey <- "#C4CEDC"
 light_grey <- "#ECECEC"
@@ -365,8 +367,8 @@ hp_2050_share <- getQuery(ief_output.proj, "outputs by tech") %>%
 hp_growth_2050 <- filter(hp, year == 2050) %>%
   left_join(hp_2021_share %>%
               rename(hp_share_2021 = hp_share), by = c("configuration", "region")) %>%
-  left_join_error_no_match(hp_2050_share %>%
-                             rename(hp_share_2050 = hp_share), by = c('configuration','region'))
+  left_join(hp_2050_share %>%
+              rename(hp_share_2050 = hp_share), by = c('configuration','region'))
 
 fig3a <- ggplot(hp_total) +
   geom_line(aes(x = year, y = growth, linetype = configuration)) +
@@ -750,7 +752,7 @@ elec_gen_tech_GCAMUSA <- getQuery(ief_output.proj, "outputs by nested tech") %>%
                        "subpeak generation")) %>%
   mutate(technology = gsub("\\s*\\([^)]*\\)\\s*$",'',technology)) %>%
   rename(subsector = subsector...5) %>%
-  left_join_error_no_match(elec_gen_tech_mapping, by = c("sector", "subsector", "technology"))
+  left_join(elec_gen_tech_mapping, by = c("sector", "subsector", "technology"))
 
 #GCAM
 elec_gen_tech_gcam <- getQuery(ief_output.proj, "outputs by tech") %>%
@@ -759,7 +761,7 @@ elec_gen_tech_gcam <- getQuery(ief_output.proj, "outputs by tech") %>%
                        "elect_td_bld"),
          subsector != 'elect_td_bld',
          region == 'USA') %>%
-  left_join_error_no_match(elec_gen_tech_mapping, by = c("sector", "subsector", "technology"))
+  left_join(elec_gen_tech_mapping, by = c("sector", "subsector", "technology"))
 
 elec_gen_tech<-elec_gen_tech_gcam %>%
   select(Units,scenario,Variable,Reporting.technology,year,value) %>%
@@ -843,12 +845,3 @@ for (i in sec_lst){
 elec_gen_RE <- elec_gen_tech %>%
   filter(Reporting.technology %in% c("Solar", "Solar (Dist)", "Wind")) %>%
   spread(key = scenario, value = value)
-
-
-
-
-
-
-
-
-
