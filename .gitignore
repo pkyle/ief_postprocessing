@@ -1,0 +1,7 @@
+# R temporary / workspace
+.Rhistory
+.RData
+
+# Optional: OS / IDE files
+*.DS_Store
+*.Rproj
