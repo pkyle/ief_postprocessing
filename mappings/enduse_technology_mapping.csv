@@ -1,0 +1,658 @@
+sector,subsector,technology,Reporting.sector,Reporting.use,Reporting.technology
+agricultural energy use,mobile,electricity,Industry,Agriculture,
+agricultural energy use,mobile,hydrogen,Industry,Agriculture,
+agricultural energy use,mobile,refined liquids,Industry,Agriculture,
+agricultural energy use,stationary,biomass,Industry,Agriculture,
+agricultural energy use,stationary,coal,Industry,Agriculture,
+agricultural energy use,stationary,electricity,Industry,Agriculture,
+agricultural energy use,stationary,gas,Industry,Agriculture,
+agricultural energy use,stationary,hydrogen,Industry,Agriculture,
+agricultural energy use,stationary,refined liquids,Industry,Agriculture,
+alumina,biomass,biomass,Industry,Aluminum,
+alumina,biomass,biomass CCS,Industry,Aluminum,CCS
+alumina,gas,gas,Industry,Aluminum,
+alumina,gas,gas CCS,Industry,Aluminum,CCS
+alumina,refined liquids,refined liquids,Industry,Aluminum,
+aluminum,electricity,electricity,Industry,Aluminum,
+ammonia,gas,gas,Industry,Ammonia,
+ammonia,gas,gas CCS,Industry,Ammonia,CCS
+ammonia,hydrogen,hydrogen,Industry,Ammonia,
+cement,cement,cement,Industry,Cement,
+cement,cement,cement CCS,Industry,Cement,CCS
+cement,cement,electro-cement,Industry,Cement,CCS
+chemical energy use,biomass,biomass,Industry,Chemicals,Energy Use
+chemical energy use,biomass,biomass CCS,Industry,Chemicals,Energy Use with CCS
+chemical energy use,coal,coal,Industry,Chemicals,Energy Use
+chemical energy use,coal,coal CCS,Industry,Chemicals,Energy Use with CCS
+chemical energy use,electricity,electricity,Industry,Chemicals,Energy Use
+chemical energy use,gas,gas,Industry,Chemicals,Energy Use
+chemical energy use,gas,gas CCS,Industry,Chemicals,Energy Use with CCS
+chemical energy use,hydrogen,hydrogen,Industry,Chemicals,Energy Use
+chemical energy use,refined liquids,refined liquids,Industry,Chemicals,Energy Use
+chemical energy use,refined liquids,refined liquids CCS,Industry,Chemicals,Energy Use with CCS
+chemical feedstocks,gas,gas,Industry,Chemicals,Feedstocks
+chemical feedstocks,refined liquids,refined liquids,Industry,Chemicals,Feedstocks
+CO2 removal,dac,hightemp DAC elec,DAC,,
+CO2 removal,dac,hightemp DAC NG,DAC,,
+CO2 removal,dac,lowtemp DAC heatpump,DAC,,
+comm cooking,electricity,electric range,Commercial,Cooking,Electric
+comm cooking,electricity,electric range hi-eff,Commercial,Cooking,Electric
+comm cooking,gas,gas range,Commercial,Cooking,Gas
+comm cooking,gas,gas range hi-eff,Commercial,Cooking,Gas
+comm cooling,electricity,air conditioning,Commercial,Cooling,Electric
+comm cooling,electricity,air conditioning hi-eff,Commercial,Cooling,Electric
+comm cooling,gas,gas cooling,Commercial,Cooling,Gas
+comm heating,biomass,wood furnace,Commercial,Heating,Wood
+comm heating,coal,coal furnace,Commercial,Heating,Coal
+comm heating,electricity,electric furnace,Commercial,Heating,Electric resistance
+comm heating,electricity,electric heat pump,Commercial,Heating,Electric heat pump
+comm heating,gas,gas furnace,Commercial,Heating,Gas
+comm heating,gas,gas furnace hi-eff,Commercial,Heating,Gas
+comm heating,refined liquids,fuel furnace,Commercial,Heating,Liquids
+comm hot water,electricity,electric heat pump water heater,Commercial,Hot water,Electric heat pump
+comm hot water,electricity,electric resistance water heater,Commercial,Hot water,Electric resistance
+comm hot water,gas,gas water heater,Commercial,Hot water,Gas
+comm hot water,gas,gas water heater hi-eff,Commercial,Hot water,Gas
+comm hot water,refined liquids,fuel water heater,Commercial,Hot water,Liquids
+comm lighting,electricity,fluorescent,Commercial,Lighting,Electric
+comm lighting,electricity,incandescent,Commercial,Lighting,Electric
+comm lighting,electricity,solid state,Commercial,Lighting,Electric
+comm non-building,electricity,electricity,Commercial,Non-building,Electric
+comm office,electricity,office equipment,Commercial,Office,Electric
+comm other,electricity,electricity,Commercial,Other,Electric
+comm other,gas,gas,Commercial,Other,Gas
+comm other,refined liquids,refined liquids,Commercial,Other,Liquids
+comm refrigeration,electricity,refrigeration,Commercial,Refrigeration,Electric
+comm refrigeration,electricity,refrigeration hi-eff,Commercial,Refrigeration,Electric
+comm ventilation,electricity,ventilation,Commercial,Ventilation,Electric
+comm ventilation,electricity,ventilation hi-eff,Commercial,Ventilation,Electric
+construction energy use,mobile,electricity,Industry,Construction,Energy Use
+construction energy use,mobile,hydrogen,Industry,Construction,Energy Use
+construction energy use,mobile,refined liquids,Industry,Construction,Energy Use
+construction energy use,stationary,electricity,Industry,Construction,Energy Use
+construction energy use,stationary,gas,Industry,Construction,Energy Use
+construction energy use,stationary,hydrogen,Industry,Construction,Energy Use
+construction energy use,stationary,refined liquids,Industry,Construction,Energy Use
+construction feedstocks,refined liquids,refined liquids,Industry,Construction,Feedstocks
+desalinated water,electricity,reverse osmosis,Water,Desalination,
+desalinated water,gas,distillation,Water,Desalination,
+desalinated water,refined liquids,distillation,Water,Desalination,
+industrial wastewater treatment,electricity,electricity,Industry,Water Supply and Treatment,
+industrial water abstraction,electricity,electricity,Industry,Water Supply and Treatment,
+industrial water treatment,electricity,electricity,Industry,Water Supply and Treatment,
+iron and steel,BLASTFUR,Biomass-based,Industry,Steel,Blast furnace bio
+iron and steel,BLASTFUR,BLASTFUR,Industry,Steel,Blast furnace 
+iron and steel,BLASTFUR,BLASTFUR CCS,Industry,Steel,Blast furnace CCS
+iron and steel,BLASTFUR,BLASTFUR CCS with hydrogen,Industry,Steel,Blast furnace H2 CCS
+iron and steel,BLASTFUR,BLASTFUR with hydrogen,Industry,Steel,Blast furnace H2
+iron and steel,EAF with DRI,EAF with DRI,Industry,Steel,Electric arc DRI
+iron and steel,EAF with DRI,EAF with DRI CCS,Industry,Steel,Electric arc DRI CCS
+iron and steel,EAF with DRI,Hydrogen-based DRI,Industry,Steel,Electric arc DRI H2
+iron and steel,EAF with scrap,EAF with scrap,Industry,Steel,Electric arc scrap
+irrigation water abstraction,electricity,electricity,Water,Irrigation,
+mining energy use,mobile,electricity,Industry,Mining,
+mining energy use,mobile,hydrogen,Industry,Mining,
+mining energy use,mobile,refined liquids,Industry,Mining,
+mining energy use,stationary,coal,Industry,Mining,
+mining energy use,stationary,electricity,Industry,Mining,
+mining energy use,stationary,gas,Industry,Mining,
+mining energy use,stationary,hydrogen,Industry,Mining,
+mining energy use,stationary,refined liquids,Industry,Mining,
+municipal wastewater treatment,electricity,electricity,Water,Municipal,
+municipal water abstraction,electricity,electricity,Water,Municipal,
+municipal water distribution,electricity,electricity,Water,Municipal,
+municipal water treatment,electricity,electricity,Water,Municipal,
+other industrial energy use,biomass,biomass,Industry,Other Industry,Energy Use
+other industrial energy use,biomass,biomass cogen,Industry,Other Industry,Energy Use
+other industrial energy use,coal,coal,Industry,Other Industry,Energy Use
+other industrial energy use,coal,coal cogen,Industry,Other Industry,Energy Use
+other industrial energy use,electricity,electricity,Industry,Other Industry,Energy Use
+other industrial energy use,gas,gas,Industry,Other Industry,Energy Use
+other industrial energy use,gas,gas cogen,Industry,Other Industry,Energy Use
+other industrial energy use,hydrogen,hydrogen,Industry,Other Industry,Energy Use
+other industrial energy use,hydrogen,hydrogen cogen,Industry,Other Industry,Energy Use
+other industrial energy use,refined liquids,refined liquids,Industry,Other Industry,Energy Use
+other industrial energy use,refined liquids,refined liquids cogen,Industry,Other Industry,Energy Use
+other industrial feedstocks,gas,gas,Industry,Other Industry,Feedstocks
+other industrial feedstocks,refined liquids,refined liquids,Industry,Other Industry,Feedstocks
+paper,paper,paper,Industry,Paper,
+process heat cement,biomass,biomass,Industry,Cement,
+process heat cement,coal,coal,Industry,Cement,
+process heat cement,gas,gas,Industry,Cement,
+process heat cement,hydrogen,hydrogen,Industry,Cement,
+process heat cement,refined liquids,refined liquids,Industry,Cement,
+process heat dac,gas CCS,gas CCS,DAC,,
+process heat paper,coal,coal,Industry,Paper,
+process heat paper,electricity,electric boiler,Industry,Paper,
+process heat paper,electricity,electric heat pump,Industry,Paper,
+process heat paper,gas,gas,Industry,Paper,
+process heat paper,gas,gas cogen,Industry,Paper,
+process heat paper,refined liquids,refined liquids,Industry,Paper,
+process heat paper,refined liquids,refined liquids cogen,Industry,Paper,
+resid clothes dryers,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes washers,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid computers,electricity,electricity,Residential,Computers,Electric
+resid cooking,electricity,electric oven,Residential,Cooking,Electric
+resid cooking,gas,gas oven,Residential,Cooking,Gas
+resid cooking,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooling,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid dishwashers,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid freezers,electricity,freezer,Residential,Freezers,Electric
+resid freezers,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid furnace fans,electricity,electricity,Residential,Furnace fans,Electric
+resid heating,biomass,wood furnace,Residential,Heating,Wood
+resid heating,coal,coal furnace,Residential,Heating,Coal
+resid heating,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating,gas,gas furnace,Residential,Heating,Gas
+resid heating,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid hot water,electricity,electric heat pump water heater,Residential,Hot water,Heat pump
+resid hot water,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance
+resid hot water,gas,gas water heater,Residential,Hot water,Gas
+resid hot water,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid lighting,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting,electricity,incandescent,Residential,Lighting,Electric
+resid lighting,electricity,solid state,Residential,Lighting,Electric
+resid other,electricity,electricity,Residential,Other,Electric
+resid other,gas,gas,Residential,Other,Gas
+resid other,refined liquids,refined liquids,Residential,Other,Liquids
+resid refrigerators,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid televisions,electricity,electricity,Residential,Televisions,Electric
+trn_aviation_intl,International Aviation,BEV,Passenger,Air,BEV
+trn_aviation_intl,International Aviation,Hydrogen,Passenger,Air,Hydrogen
+trn_aviation_intl,International Aviation,Liquids,Passenger,Air,Liquids
+trn_freight,Domestic Ship,BEV,Freight,Ship,BEV
+trn_freight,Domestic Ship,FCEV,Freight,Ship,FCEV
+trn_freight,Domestic Ship,Hybrid Liquids,Freight,Ship,Hybrid Liquids
+trn_freight,Domestic Ship,Liquids,Freight,Ship,Liquids
+trn_freight,Freight Rail,BEV,Freight,Rail,BEV
+trn_freight,Freight Rail,Electric,Freight,Rail,Electric
+trn_freight,Freight Rail,FCEV,Freight,Rail,FCEV
+trn_freight,Freight Rail,Hybrid Liquids,Freight,Rail,Hybrid Liquids
+trn_freight,Freight Rail,Liquids,Freight,Rail,Liquids
+trn_freight_road,Heavy truck,BEV,Freight,Truck,BEV
+trn_freight_road,Heavy truck,BEV Target,Freight,Truck,BEV
+trn_freight_road,Heavy truck,FCEV,Freight,Truck,FCEV
+trn_freight_road,Heavy truck,Hybrid Liquids,Freight,Truck,Hybrid Liquids
+trn_freight_road,Heavy truck,Liquids,Freight,Truck,Liquids
+trn_freight_road,Light truck,BEV,Freight,Truck,BEV
+trn_freight_road,Light truck,FCEV,Freight,Truck,FCEV
+trn_freight_road,Light truck,Hybrid Liquids,Freight,Truck,Hybrid Liquids
+trn_freight_road,Light truck,Liquids,Freight,Truck,Liquids
+trn_freight_road,Medium truck,BEV,Freight,Truck,BEV
+trn_freight_road,Medium truck,BEV Target,Freight,Truck,BEV
+trn_freight_road,Medium truck,FCEV,Freight,Truck,FCEV
+trn_freight_road,Medium truck,Hybrid Liquids,Freight,Truck,Hybrid Liquids
+trn_freight_road,Medium truck,Liquids,Freight,Truck,Liquids
+trn_pass,Domestic Aviation,BEV,Passenger,Air,BEV
+trn_pass,Domestic Aviation,Hydrogen,Passenger,Air,Hydrogen
+trn_pass,Domestic Aviation,Liquids,Passenger,Air,Liquids
+trn_pass,HSR,Electric,Passenger,Rail,Electric
+trn_pass,Passenger Rail,Electric,Passenger,Rail,Electric
+trn_pass,Passenger Rail,Liquids,Passenger,Rail,Liquids
+trn_pass_road,Bus,BEV,Passenger,Bus,BEV
+trn_pass_road,Bus,FCEV,Passenger,Bus,FCEV
+trn_pass_road,Bus,Hybrid Liquids,Passenger,Bus,Hybrid Liquids
+trn_pass_road,Bus,Liquids,Passenger,Bus,Liquids
+trn_pass_road,Bus,NG,Passenger,Bus,NG
+trn_pass_road_LDV,2W and 3W,BEV,Passenger,LDV,BEV
+trn_pass_road_LDV,2W and 3W,Liquids,Passenger,LDV,Liquids
+trn_pass_road_LDV_4W,Car,BEV,Passenger,LDV,BEV
+trn_pass_road_LDV_4W,Car,FCEV,Passenger,LDV,FCEV
+trn_pass_road_LDV_4W,Car,Hybrid Liquids,Passenger,LDV,Hybrid Liquids
+trn_pass_road_LDV_4W,Car,Liquids,Passenger,LDV,Liquids
+trn_pass_road_LDV_4W,Large Car and Truck,BEV,Passenger,LDV,BEV
+trn_pass_road_LDV_4W,Large Car and Truck,FCEV,Passenger,LDV,FCEV
+trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,Passenger,LDV,Hybrid Liquids
+trn_pass_road_LDV_4W,Large Car and Truck,Liquids,Passenger,LDV,Liquids
+trn_shipping_intl,International Ship,BEV,Freight,Ship,BEV
+trn_shipping_intl,International Ship,FCEV,Freight,Ship,FCEV
+trn_shipping_intl,International Ship,Hybrid Liquids,Freight,Ship,Hybrid Liquids
+trn_shipping_intl,International Ship,Liquids,Freight,Ship,Liquids
+comm heating,biomass,biomass,Commercial,Heating,Wood
+comm others,biomass,biomass,Commercial,Other,Wood
+comm others,coal,coal,Commercial,Other,Coal
+resid clothes dryers modern_d1,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d1,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d1,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes dryers modern_d10,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d10,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d10,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes dryers modern_d2,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d2,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d2,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes dryers modern_d3,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d3,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d3,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes dryers modern_d4,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d4,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d4,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes dryers modern_d5,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d5,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d5,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes dryers modern_d6,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d6,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d6,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes dryers modern_d7,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d7,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d7,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes dryers modern_d8,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d8,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d8,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes dryers modern_d9,electricity,clothes dryer,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d9,electricity,clothes dryer hi-eff,Residential,Clothes dryers,Electric
+resid clothes dryers modern_d9,gas,clothes dryer,Residential,Clothes dryers,Gas
+resid clothes washers modern_d1,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers modern_d1,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid clothes washers modern_d10,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers modern_d10,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid clothes washers modern_d2,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers modern_d2,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid clothes washers modern_d3,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers modern_d3,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid clothes washers modern_d4,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers modern_d4,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid clothes washers modern_d5,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers modern_d5,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid clothes washers modern_d6,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers modern_d6,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid clothes washers modern_d7,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers modern_d7,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid clothes washers modern_d8,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers modern_d8,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid clothes washers modern_d9,electricity,clothes washer,Residential,Clothes washers,Electric
+resid clothes washers modern_d9,electricity,clothes washer hi-eff,Residential,Clothes washers,Electric
+resid computers modern_d1,electricity,electricity,Residential,Computers,Electric
+resid computers modern_d10,electricity,electricity,Residential,Computers,Electric
+resid computers modern_d2,electricity,electricity,Residential,Computers,Electric
+resid computers modern_d3,electricity,electricity,Residential,Computers,Electric
+resid computers modern_d4,electricity,electricity,Residential,Computers,Electric
+resid computers modern_d5,electricity,electricity,Residential,Computers,Electric
+resid computers modern_d6,electricity,electricity,Residential,Computers,Electric
+resid computers modern_d7,electricity,electricity,Residential,Computers,Electric
+resid computers modern_d8,electricity,electricity,Residential,Computers,Electric
+resid computers modern_d9,electricity,electricity,Residential,Computers,Electric
+resid cooking modern_d1,electricity,electric oven,Residential,Cooking,Electric
+resid cooking modern_d1,gas,gas oven,Residential,Cooking,Gas
+resid cooking modern_d1,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking modern_d1,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking modern_d1,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooking modern_d10,electricity,electric oven,Residential,Cooking,Electric
+resid cooking modern_d10,gas,gas oven,Residential,Cooking,Gas
+resid cooking modern_d10,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking modern_d10,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking modern_d10,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooking modern_d2,electricity,electric oven,Residential,Cooking,Electric
+resid cooking modern_d2,gas,gas oven,Residential,Cooking,Gas
+resid cooking modern_d2,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking modern_d2,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking modern_d2,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooking modern_d3,electricity,electric oven,Residential,Cooking,Electric
+resid cooking modern_d3,gas,gas oven,Residential,Cooking,Gas
+resid cooking modern_d3,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking modern_d3,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking modern_d3,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooking modern_d4,electricity,electric oven,Residential,Cooking,Electric
+resid cooking modern_d4,gas,gas oven,Residential,Cooking,Gas
+resid cooking modern_d4,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking modern_d4,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking modern_d4,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooking modern_d5,electricity,electric oven,Residential,Cooking,Electric
+resid cooking modern_d5,gas,gas oven,Residential,Cooking,Gas
+resid cooking modern_d5,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking modern_d5,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking modern_d5,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooking modern_d6,electricity,electric oven,Residential,Cooking,Electric
+resid cooking modern_d6,gas,gas oven,Residential,Cooking,Gas
+resid cooking modern_d6,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking modern_d6,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking modern_d6,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooking modern_d7,electricity,electric oven,Residential,Cooking,Electric
+resid cooking modern_d7,gas,gas oven,Residential,Cooking,Gas
+resid cooking modern_d7,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking modern_d7,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking modern_d7,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooking modern_d8,electricity,electric oven,Residential,Cooking,Electric
+resid cooking modern_d8,gas,gas oven,Residential,Cooking,Gas
+resid cooking modern_d8,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking modern_d8,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking modern_d8,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooking modern_d9,electricity,electric oven,Residential,Cooking,Electric
+resid cooking modern_d9,gas,gas oven,Residential,Cooking,Gas
+resid cooking modern_d9,gas,gas oven hi-eff,Residential,Cooking,Gas
+resid cooking modern_d9,refined liquids,lpg oven,Residential,Cooking,Liquids
+resid cooking modern_d9,refined liquids,lpg oven hi-eff,Residential,Cooking,Liquids
+resid cooling modern_d1,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling modern_d1,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid cooling modern_d10,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling modern_d10,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid cooling modern_d2,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling modern_d2,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid cooling modern_d3,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling modern_d3,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid cooling modern_d4,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling modern_d4,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid cooling modern_d5,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling modern_d5,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid cooling modern_d6,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling modern_d6,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid cooling modern_d7,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling modern_d7,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid cooling modern_d8,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling modern_d8,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid cooling modern_d9,electricity,air conditioning,Residential,Cooling,Electric
+resid cooling modern_d9,electricity,air conditioning hi-eff,Residential,Cooling,Electric
+resid dishwashers modern_d1,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers modern_d1,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid dishwashers modern_d10,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers modern_d10,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid dishwashers modern_d2,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers modern_d2,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid dishwashers modern_d3,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers modern_d3,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid dishwashers modern_d4,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers modern_d4,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid dishwashers modern_d5,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers modern_d5,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid dishwashers modern_d6,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers modern_d6,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid dishwashers modern_d7,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers modern_d7,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid dishwashers modern_d8,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers modern_d8,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid dishwashers modern_d9,electricity,dishwasher,Residential,Dishwashers,Electric
+resid dishwashers modern_d9,electricity,dishwasher hi-eff,Residential,Dishwashers,Electric
+resid freezers modern_d1,electricity,freezer,Residential,Freezers,Electric
+resid freezers modern_d1,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid freezers modern_d10,electricity,freezer,Residential,Freezers,Electric
+resid freezers modern_d10,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid freezers modern_d2,electricity,freezer,Residential,Freezers,Electric
+resid freezers modern_d2,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid freezers modern_d3,electricity,freezer,Residential,Freezers,Electric
+resid freezers modern_d3,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid freezers modern_d4,electricity,freezer,Residential,Freezers,Electric
+resid freezers modern_d4,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid freezers modern_d5,electricity,freezer,Residential,Freezers,Electric
+resid freezers modern_d5,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid freezers modern_d6,electricity,freezer,Residential,Freezers,Electric
+resid freezers modern_d6,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid freezers modern_d7,electricity,freezer,Residential,Freezers,Electric
+resid freezers modern_d7,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid freezers modern_d8,electricity,freezer,Residential,Freezers,Electric
+resid freezers modern_d8,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid freezers modern_d9,electricity,freezer,Residential,Freezers,Electric
+resid freezers modern_d9,electricity,freezer hi-eff,Residential,Freezers,Electric
+resid furnace fans modern_d1,electricity,electricity,Residential,Furnace fans,Electric
+resid furnace fans modern_d10,electricity,electricity,Residential,Furnace fans,Electric
+resid furnace fans modern_d2,electricity,electricity,Residential,Furnace fans,Electric
+resid furnace fans modern_d3,electricity,electricity,Residential,Furnace fans,Electric
+resid furnace fans modern_d4,electricity,electricity,Residential,Furnace fans,Electric
+resid furnace fans modern_d5,electricity,electricity,Residential,Furnace fans,Electric
+resid furnace fans modern_d6,electricity,electricity,Residential,Furnace fans,Electric
+resid furnace fans modern_d7,electricity,electricity,Residential,Furnace fans,Electric
+resid furnace fans modern_d8,electricity,electricity,Residential,Furnace fans,Electric
+resid furnace fans modern_d9,electricity,electricity,Residential,Furnace fans,Electric
+resid heating TradBio_d1,traditional biomass,traditional biomass,Residential,Heating,Wood
+resid heating TradBio_d10,traditional biomass,traditional biomass,Residential,Heating,Wood
+resid heating TradBio_d2,traditional biomass,traditional biomass,Residential,Heating,Wood
+resid heating TradBio_d3,traditional biomass,traditional biomass,Residential,Heating,Wood
+resid heating TradBio_d4,traditional biomass,traditional biomass,Residential,Heating,Wood
+resid heating TradBio_d5,traditional biomass,traditional biomass,Residential,Heating,Wood
+resid heating TradBio_d6,traditional biomass,traditional biomass,Residential,Heating,Wood
+resid heating TradBio_d7,traditional biomass,traditional biomass,Residential,Heating,Wood
+resid heating TradBio_d8,traditional biomass,traditional biomass,Residential,Heating,Wood
+resid heating TradBio_d9,traditional biomass,traditional biomass,Residential,Heating,Wood
+resid heating modern_d1,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating modern_d1,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating modern_d1,gas,gas furnace,Residential,Heating,Gas
+resid heating modern_d1,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating modern_d1,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating modern_d1,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid heating modern_d10,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating modern_d10,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating modern_d10,gas,gas furnace,Residential,Heating,Gas
+resid heating modern_d10,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating modern_d10,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating modern_d10,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid heating modern_d2,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating modern_d2,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating modern_d2,gas,gas furnace,Residential,Heating,Gas
+resid heating modern_d2,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating modern_d2,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating modern_d2,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid heating modern_d3,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating modern_d3,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating modern_d3,gas,gas furnace,Residential,Heating,Gas
+resid heating modern_d3,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating modern_d3,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating modern_d3,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid heating modern_d4,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating modern_d4,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating modern_d4,gas,gas furnace,Residential,Heating,Gas
+resid heating modern_d4,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating modern_d4,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating modern_d4,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid heating modern_d5,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating modern_d5,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating modern_d5,gas,gas furnace,Residential,Heating,Gas
+resid heating modern_d5,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating modern_d5,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating modern_d5,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid heating modern_d6,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating modern_d6,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating modern_d6,gas,gas furnace,Residential,Heating,Gas
+resid heating modern_d6,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating modern_d6,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating modern_d6,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid heating modern_d7,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating modern_d7,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating modern_d7,gas,gas furnace,Residential,Heating,Gas
+resid heating modern_d7,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating modern_d7,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating modern_d7,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid heating modern_d8,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating modern_d8,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating modern_d8,gas,gas furnace,Residential,Heating,Gas
+resid heating modern_d8,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating modern_d8,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating modern_d8,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid heating modern_d9,electricity,electric furnace,Residential,Heating,Electric resistance
+resid heating modern_d9,electricity,electric heat pump,Residential,Heating,Electric heat pump
+resid heating modern_d9,gas,gas furnace,Residential,Heating,Gas
+resid heating modern_d9,gas,gas furnace hi-eff,Residential,Heating,Gas
+resid heating modern_d9,refined liquids,fuel furnace,Residential,Heating,Liquids
+resid heating modern_d9,refined liquids,fuel furnace hi-eff,Residential,Heating,Liquids
+resid hot water modern_d1,electricity,electric heat pump water heater,Residential,Hot water,Electric
+resid hot water modern_d1,gas,gas water heater,Residential,Hot water,Gas
+resid hot water modern_d1,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water modern_d1,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water modern_d1,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid hot water modern_d10,electricity,electric heat pump water heater,Residential,Hot water,Electric
+resid hot water modern_d10,gas,gas water heater,Residential,Hot water,Gas
+resid hot water modern_d10,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water modern_d10,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water modern_d10,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid hot water modern_d2,electricity,electric heat pump water heater,Residential,Hot water,Electric
+resid hot water modern_d2,gas,gas water heater,Residential,Hot water,Gas
+resid hot water modern_d2,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water modern_d2,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water modern_d2,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid hot water modern_d3,electricity,electric heat pump water heater,Residential,Hot water,Electric
+resid hot water modern_d3,gas,gas water heater,Residential,Hot water,Gas
+resid hot water modern_d3,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water modern_d3,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water modern_d3,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid hot water modern_d4,electricity,electric heat pump water heater,Residential,Hot water,Electric
+resid hot water modern_d4,gas,gas water heater,Residential,Hot water,Gas
+resid hot water modern_d4,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water modern_d4,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water modern_d4,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid hot water modern_d5,electricity,electric heat pump water heater,Residential,Hot water,Electric
+resid hot water modern_d5,gas,gas water heater,Residential,Hot water,Gas
+resid hot water modern_d5,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water modern_d5,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water modern_d5,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid hot water modern_d6,electricity,electric heat pump water heater,Residential,Hot water,Electric
+resid hot water modern_d6,gas,gas water heater,Residential,Hot water,Gas
+resid hot water modern_d6,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water modern_d6,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water modern_d6,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid hot water modern_d7,electricity,electric heat pump water heater,Residential,Hot water,Electric
+resid hot water modern_d7,gas,gas water heater,Residential,Hot water,Gas
+resid hot water modern_d7,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water modern_d7,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water modern_d7,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid hot water modern_d8,electricity,electric heat pump water heater,Residential,Hot water,Electric
+resid hot water modern_d8,gas,gas water heater,Residential,Hot water,Gas
+resid hot water modern_d8,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water modern_d8,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water modern_d8,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid hot water modern_d9,electricity,electric heat pump water heater,Residential,Hot water,Electric
+resid hot water modern_d9,gas,gas water heater,Residential,Hot water,Gas
+resid hot water modern_d9,gas,gas water heater hi-eff,Residential,Hot water,Gas
+resid hot water modern_d9,refined liquids,fuel water heater,Residential,Hot water,Liquids
+resid hot water modern_d9,refined liquids,fuel water heater hi-eff,Residential,Hot water,Liquids
+resid lighting modern_d1,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting modern_d1,electricity,incandescent,Residential,Lighting,Electric
+resid lighting modern_d1,electricity,solid state,Residential,Lighting,Electric
+resid lighting modern_d10,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting modern_d10,electricity,incandescent,Residential,Lighting,Electric
+resid lighting modern_d10,electricity,solid state,Residential,Lighting,Electric
+resid lighting modern_d2,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting modern_d2,electricity,incandescent,Residential,Lighting,Electric
+resid lighting modern_d2,electricity,solid state,Residential,Lighting,Electric
+resid lighting modern_d3,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting modern_d3,electricity,incandescent,Residential,Lighting,Electric
+resid lighting modern_d3,electricity,solid state,Residential,Lighting,Electric
+resid lighting modern_d4,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting modern_d4,electricity,incandescent,Residential,Lighting,Electric
+resid lighting modern_d4,electricity,solid state,Residential,Lighting,Electric
+resid lighting modern_d5,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting modern_d5,electricity,incandescent,Residential,Lighting,Electric
+resid lighting modern_d5,electricity,solid state,Residential,Lighting,Electric
+resid lighting modern_d6,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting modern_d6,electricity,incandescent,Residential,Lighting,Electric
+resid lighting modern_d6,electricity,solid state,Residential,Lighting,Electric
+resid lighting modern_d7,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting modern_d7,electricity,incandescent,Residential,Lighting,Electric
+resid lighting modern_d7,electricity,solid state,Residential,Lighting,Electric
+resid lighting modern_d8,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting modern_d8,electricity,incandescent,Residential,Lighting,Electric
+resid lighting modern_d8,electricity,solid state,Residential,Lighting,Electric
+resid lighting modern_d9,electricity,fluorescent,Residential,Lighting,Electric
+resid lighting modern_d9,electricity,incandescent,Residential,Lighting,Electric
+resid lighting modern_d9,electricity,solid state,Residential,Lighting,Electric
+resid other modern_d1,electricity,electricity,Residential,Other,Electric
+resid other modern_d1,gas,gas,Residential,Other,Gas
+resid other modern_d1,refined liquids,refined liquids,Residential,Other,Liquids
+resid other modern_d10,electricity,electricity,Residential,Other,Electric
+resid other modern_d10,gas,gas,Residential,Other,Gas
+resid other modern_d10,refined liquids,refined liquids,Residential,Other,Liquids
+resid other modern_d2,electricity,electricity,Residential,Other,Electric
+resid other modern_d2,gas,gas,Residential,Other,Gas
+resid other modern_d2,refined liquids,refined liquids,Residential,Other,Liquids
+resid other modern_d3,electricity,electricity,Residential,Other,Electric
+resid other modern_d3,gas,gas,Residential,Other,Gas
+resid other modern_d3,refined liquids,refined liquids,Residential,Other,Liquids
+resid other modern_d4,electricity,electricity,Residential,Other,Electric
+resid other modern_d4,gas,gas,Residential,Other,Gas
+resid other modern_d4,refined liquids,refined liquids,Residential,Other,Liquids
+resid other modern_d5,electricity,electricity,Residential,Other,Electric
+resid other modern_d5,gas,gas,Residential,Other,Gas
+resid other modern_d5,refined liquids,refined liquids,Residential,Other,Liquids
+resid other modern_d6,electricity,electricity,Residential,Other,Electric
+resid other modern_d6,gas,gas,Residential,Other,Gas
+resid other modern_d6,refined liquids,refined liquids,Residential,Other,Liquids
+resid other modern_d7,electricity,electricity,Residential,Other,Electric
+resid other modern_d7,gas,gas,Residential,Other,Gas
+resid other modern_d7,refined liquids,refined liquids,Residential,Other,Liquids
+resid other modern_d8,electricity,electricity,Residential,Other,Electric
+resid other modern_d8,gas,gas,Residential,Other,Gas
+resid other modern_d8,refined liquids,refined liquids,Residential,Other,Liquids
+resid other modern_d9,electricity,electricity,Residential,Other,Electric
+resid other modern_d9,gas,gas,Residential,Other,Gas
+resid other modern_d9,refined liquids,refined liquids,Residential,Other,Liquids
+resid others TradBio_d1,traditional biomass,traditional biomass,Residential,Cooking,Wood
+resid others TradBio_d10,traditional biomass,traditional biomass,Residential,Cooking,Wood
+resid others TradBio_d2,traditional biomass,traditional biomass,Residential,Cooking,Wood
+resid others TradBio_d3,traditional biomass,traditional biomass,Residential,Cooking,Wood
+resid others TradBio_d4,traditional biomass,traditional biomass,Residential,Cooking,Wood
+resid others TradBio_d5,traditional biomass,traditional biomass,Residential,Cooking,Wood
+resid others TradBio_d6,traditional biomass,traditional biomass,Residential,Cooking,Wood
+resid others TradBio_d7,traditional biomass,traditional biomass,Residential,Cooking,Wood
+resid others TradBio_d8,traditional biomass,traditional biomass,Residential,Cooking,Wood
+resid others TradBio_d9,traditional biomass,traditional biomass,Residential,Cooking,Wood
+resid refrigerators modern_d1,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators modern_d1,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid refrigerators modern_d10,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators modern_d10,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid refrigerators modern_d2,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators modern_d2,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid refrigerators modern_d3,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators modern_d3,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid refrigerators modern_d4,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators modern_d4,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid refrigerators modern_d5,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators modern_d5,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid refrigerators modern_d6,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators modern_d6,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid refrigerators modern_d7,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators modern_d7,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid refrigerators modern_d8,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators modern_d8,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid refrigerators modern_d9,electricity,refrigerator,Residential,Refrigerators,Electric
+resid refrigerators modern_d9,electricity,refrigerator hi-eff,Residential,Refrigerators,Electric
+resid televisions modern_d1,electricity,electricity,Residential,Televisions,Electric
+resid televisions modern_d10,electricity,electricity,Residential,Televisions,Electric
+resid televisions modern_d2,electricity,electricity,Residential,Televisions,Electric
+resid televisions modern_d3,electricity,electricity,Residential,Televisions,Electric
+resid televisions modern_d4,electricity,electricity,Residential,Televisions,Electric
+resid televisions modern_d5,electricity,electricity,Residential,Televisions,Electric
+resid televisions modern_d6,electricity,electricity,Residential,Televisions,Electric
+resid televisions modern_d7,electricity,electricity,Residential,Televisions,Electric
+resid televisions modern_d8,electricity,electricity,Residential,Televisions,Electric
+resid televisions modern_d9,electricity,electricity,Residential,Televisions,Electric
+food processing,food processing,food processing,Industry,Food processing,
+process heat food processing,coal,coal,Industry,Food processing,
+process heat food processing,coal,coal cogen,Industry,Food processing,
+process heat food processing,electricity,electric heat pump,Industry,Food processing,
+process heat food processing,electricity,electricity,Industry,Food processing,
+process heat food processing,electricity,electricity with solar,Industry,Food processing,
+process heat food processing,gas,gas,Industry,Food processing,
+process heat food processing,gas,gas cogen,Industry,Food processing,
+process heat food processing,gas,gas with solar,Industry,Food processing,
+process heat food processing,refined liquids,refined liquids,Industry,Food processing,
+process heat food processing,refined liquids,refined liquids cogen,Industry,Food processing,
+resid hot water modern_d1,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water modern_d1,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance
+resid hot water modern_d10,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water modern_d10,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance
+resid hot water modern_d2,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water modern_d2,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance
+resid hot water modern_d3,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water modern_d3,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance
+resid hot water modern_d4,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water modern_d4,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance
+resid hot water modern_d5,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water modern_d5,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance
+resid hot water modern_d6,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water modern_d6,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance
+resid hot water modern_d7,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water modern_d7,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance
+resid hot water modern_d8,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water modern_d8,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance
+resid hot water modern_d9,electricity,electric resistance water heater,Residential,Hot water,Resistance
+resid hot water modern_d9,electricity,electric resistance water heater hi-eff,Residential,Hot water,Resistance

@@ -1,0 +1,83 @@
+sector,subsector,technology,Variable,Reporting.technology
+base load generation,biomass,biomass (IGCC),Electricity Generation,Biomass
+base load generation,biomass,biomass (conv),Electricity Generation,Biomass
+base load generation,biomass,biomass (IGCC CCS),Electricity Generation,Biomass CCS
+base load generation,biomass,biomass (conv CCS),Electricity Generation,Biomass CCS
+base load generation,coal,coal (conv pul),Electricity Generation,Coal
+base load generation,coal,coal (IGCC CCS),Electricity Generation,Coal CCS
+base load generation,coal,coal (conv pul CCS),Electricity Generation,Coal CCS
+base load generation,gas,gas (CC),Electricity Generation,Gas CC
+base load generation,gas,gas (CC CCS),Electricity Generation,Gas CC CCS
+base load generation,geothermal,geothermal,Electricity Generation,Geothermal
+base load generation,hydro,hydro_base,Electricity Generation,Hydro
+base load generation,nuclear,Gen_II_LWR,Electricity Generation,Nuclear
+base load generation,nuclear,SMR,Electricity Generation,Nuclear
+base load generation,nuclear,large reactor,Electricity Generation,Nuclear
+base load generation,refined liquids,refined liquids (steam/CT),Electricity Generation,Liquids
+base load generation,refined liquids,refined liquids (CC),Electricity Generation,Liquids
+base load generation,refined liquids,refined liquids (CC CCS),Electricity Generation,Liquids CCS
+base load generation,solar,PV_base_storage,Electricity Generation,Solar
+base load generation,solar,CSP_base_storage,Electricity Generation,Solar
+base load generation,wind,wind_base,Electricity Generation,Wind
+base load generation,wind,wind_base_offshore,Electricity Generation,Wind
+base load generation,wind,wind_base_storage,Electricity Generation,Wind
+elect_td_bld,rooftop_pv,rooftop_pv,Electricity Generation,Solar (Dist)
+electricity,biomass,biomass (conv),Electricity Generation,Biomass
+electricity,biomass,biomass (conv CCS),Electricity Generation,Biomass CCS
+electricity,biomass,biomass (IGCC),Electricity Generation,Biomass
+electricity,biomass,biomass (IGCC CCS),Electricity Generation,Biomass CCS
+electricity,coal,coal (conv pul),Electricity Generation,Coal
+electricity,coal,coal (conv pul CCS),Electricity Generation,Coal CCS
+electricity,coal,coal (IGCC),Electricity Generation,Coal
+electricity,coal,coal (IGCC CCS),Electricity Generation,Coal CCS
+electricity,gas,gas (CC),Electricity Generation,Gas CC
+electricity,gas,gas (CC CCS),Electricity Generation,Gas CC CCS
+electricity,gas,gas (steam/CT),Electricity Generation,Gas CT
+electricity,geothermal,geothermal,Electricity Generation,Geothermal
+electricity,hydro,hydro,Electricity Generation,Hydro
+electricity,nuclear,Gen_II_LWR,Electricity Generation,Nuclear
+electricity,nuclear,Gen_III,Electricity Generation,Nuclear
+electricity,nuclear,large reactor,Electricity Generation,Nuclear
+electricity,nuclear,SMR,Electricity Generation,Nuclear
+electricity,refined liquids,refined liquids (CC),Electricity Generation,Liquids
+electricity,refined liquids,refined liquids (CC CCS),Electricity Generation,Liquids CCS
+electricity,refined liquids,refined liquids (steam/CT),Electricity Generation,Liquids
+electricity,solar,CSP,Electricity Generation,Solar
+electricity,solar,CSP_storage,Electricity Generation,Solar
+electricity,solar,PV,Electricity Generation,Solar
+electricity,solar,PV_storage,Electricity Generation,Solar
+electricity,wind,wind,Electricity Generation,Wind
+electricity,wind,wind_offshore,Electricity Generation,Wind
+electricity,wind,wind_storage,Electricity Generation,Wind
+intermediate generation,biomass,biomass (IGCC),Electricity Generation,Biomass
+intermediate generation,biomass,biomass (conv),Electricity Generation,Biomass
+intermediate generation,biomass,biomass (IGCC CCS),Electricity Generation,Biomass CCS
+intermediate generation,biomass,biomass (conv CCS),Electricity Generation,Biomass CCS
+intermediate generation,coal,coal (conv pul),Electricity Generation,Coal
+intermediate generation,coal,coal (IGCC CCS),Electricity Generation,Coal CCS
+intermediate generation,coal,coal (conv pul CCS),Electricity Generation,Coal CCS
+intermediate generation,gas,gas (CC),Electricity Generation,Gas CC
+intermediate generation,gas,gas (CC CCS),Electricity Generation,Gas CC CCS
+intermediate generation,refined liquids,refined liquids (steam/CT),Electricity Generation,Liquids
+intermediate generation,refined liquids,refined liquids (CC),Electricity Generation,Liquids
+intermediate generation,refined liquids,refined liquids (CC CCS),Electricity Generation,Liquids CCS
+intermediate generation,solar,PV_int,Electricity Generation,Solar
+intermediate generation,solar,CSP_int,Electricity Generation,Solar
+intermediate generation,wind,wind_int,Electricity Generation,Wind
+peak generation,gas,gas (CC),Electricity Generation,Gas CC
+peak generation,gas,gas (steam/CT),Electricity Generation,Gas CT
+peak generation,gas,gas (CC CCS),Electricity Generation,Gas CC CCS
+peak generation,refined liquids,refined liquids (CC),Electricity Generation,Liquids
+peak generation,refined liquids,refined liquids (steam/CT),Electricity Generation,Liquids
+peak generation,refined liquids,refined liquids (CC CCS),Electricity Generation,Liquids CCS
+peak generation,solar,PV_peak,Electricity Generation,Solar
+peak generation,solar,CSP_peak,Electricity Generation,Solar
+subpeak generation,gas,gas (CC),Electricity Generation,Gas CC
+subpeak generation,gas,gas (steam/CT),Electricity Generation,Gas CT
+subpeak generation,gas,gas (CC CCS),Electricity Generation,Gas CC CCS
+subpeak generation,refined liquids,refined liquids (CC),Electricity Generation,Liquids
+subpeak generation,refined liquids,refined liquids (steam/CT),Electricity Generation,Liquids
+subpeak generation,refined liquids,refined liquids (CC CCS),Electricity Generation,Liquids CCS
+subpeak generation,solar,PV_subpeak,Electricity Generation,Solar
+subpeak generation,solar,CSP_subpeak,Electricity Generation,Solar
+subpeak generation,wind,wind_subpeak,Electricity Generation,Wind

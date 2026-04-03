@@ -1,0 +1,20 @@
+input,Reporting.fuel
+delivered aviation fuels,Refined Liquids
+delivered biomass,Biomass
+delivered coal,Coal
+delivered gas,Gas
+elect_td_bld,Electricity
+elect_td_ind,Electricity
+elect_td_trn,Electricity
+H2 central production,Hydrogen
+H2 industrial,Hydrogen
+H2 LDV,Hydrogen
+H2 MHDV,Hydrogen
+H2 wholesale delivery,Hydrogen
+LH2,Hydrogen
+refined liquids enduse,Refined Liquids
+refined liquids industrial,Refined Liquids
+regional biomass,Biomass
+traditional biomass,Biomass
+waste biomass for paper,Biomass
+wholesale gas,Gas
