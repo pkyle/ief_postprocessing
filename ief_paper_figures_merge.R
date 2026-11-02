@@ -9,6 +9,7 @@ library(readr)
 library(ggplot2)
 library(patchwork)
 library(RColorBrewer)
+library(stringr)
 
 # set colors ----
 light_blue_grey <- "#C4CEDC"
@@ -845,3 +846,53 @@ for (i in sec_lst){
 elec_gen_RE <- elec_gen_tech %>%
   filter(Reporting.technology %in% c("Solar", "Solar (Dist)", "Wind")) %>%
   spread(key = scenario, value = value)
+
+# Figures comparing energy prices between GCAM and GCAM-USA scenarios
+prices_init <- getQuery(ief_output.proj, "prices by sector") %>%
+  filter(scenario %in% c("GCAM_RefTech", "GCAM_NZ_AdvTech", "GCAM-USA_RefTech", "GCAM-USA_NZ_AdvTech"),
+         sector %in% c("electricity", "delivered gas", "refined liquids enduse"),
+         region == "USA" | sector == "electricity",
+         year %in% ANALYSIS_YEARS) %>%
+  mutate(price = value / gdp_deflator_1975_2022) %>%
+  select(scenario, region, sector, year, price)
+
+# Electricity prices in GCAM-USA are by grid region, so they need to have weighting factors joined in
+prices_elec_gcamusa <- filter(prices_init, grepl("grid", region)) %>%
+  left_join(getQuery(ief_output.proj, "outputs by tech"),
+            by = c("scenario", "region", "year", "sector")) %>%
+  mutate(expenditure = price * value) %>%
+  group_by(scenario, sector, year) %>%
+  summarise(output = sum(value),
+            expenditure = sum(expenditure)) %>%
+  ungroup() %>%
+  mutate(price = expenditure / output,
+         region = "USA") %>%
+  select(scenario, region, sector, year, price)
+
+prices_for_SI <- bind_rows(filter(prices_init, !grepl("grid", region)),
+                           prices_elec_gcamusa) %>%
+  mutate(scenario = factor(scenario, levels = c("GCAM_RefTech","GCAM-USA_RefTech",
+                                                "GCAM_NZ_AdvTech","GCAM-USA_NZ_AdvTech")),
+         fuel = str_to_title(sector),
+         fuel = sub(" Enduse", "", fuel),
+         fuel = sub("Delivered ", "Natural ", fuel),
+         configuration = if_else(grepl("GCAM-USA", scenario), "GCAM-USA", "GCAM"))
+
+scenario_color_scheme <- c("GCAM_RefTech" = "black",
+                           "GCAM-USA_RefTech" = "black",
+                           "GCAM_NZ_AdvTech" = "seagreen",
+                           "GCAM-USA_NZ_AdvTech" = "seagreen")
+
+ggplot(prices_for_SI,
+       aes(x = year, y = price, color = scenario)) +
+  geom_line(aes(linetype = configuration)) +
+  theme_bw() +
+  scale_color_manual(values = scenario_color_scheme) +
+  labs(y = "$/GJ") +
+  labs(x = NULL) +
+  facet_wrap(~fuel, scales = "free_y") +
+  ylim(c(0, NA))
+
+ggsave("figS3_fuel_producer_prices.png", height = 6, width = 8, unit = "in")
+
+
