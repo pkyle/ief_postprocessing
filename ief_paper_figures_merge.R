@@ -1,6 +1,6 @@
 # This script produces the figures for "State or nation, sector or system? How granularity shapes U.S. energy modeling results"
 # Most of the packages are available at CRAN but rgcam should be installed using devtools
-## install_github("JGCRI", "rgcam")
+## devtools::install_github("JGCRI", "rgcam")
 
 library(rgcam)
 library(dplyr)

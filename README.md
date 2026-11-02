@@ -2,6 +2,10 @@ This repository contains all data and code necessary to generate the figures for
 
 The script "ief_paper_figures_merge.R" uses saved model output data in ief_output.proj, combined with mappings in the mappings folder, and third-party libraries, to produce all committed .png files, named by their placement in the paper.
 
+The script uses the rgcam library from the JGCRI Github repository; it should be installed as follows:
+library(devtools)
+devtools::install_github("JGCRI", "rgcam")
+
 To re-generate the file "ief_output.proj", the GCAM repository is available at https://github.com/pkyle/gcam-core/tree/gpk/paper/ief using the configuration files:
 ```
 exe/configuration-sets-gcam/config.xml
